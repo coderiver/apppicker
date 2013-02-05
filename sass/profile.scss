@@ -256,7 +256,8 @@ a{
 			color:#a8a8a8;
 			font-size: 18px;
 			text-align: center;
-			padding: 5px 9px;
+			padding: 5px 8px;
+			width: 64px;
 			&:first-child{
 				border-left:1px solid #dadbdc;
 			}
@@ -301,6 +302,7 @@ a{
 		th.t-col2{font-size: 14px;}
 		.t-col9{
 			font-size: 12px;
+			width: 32px;
 		}
 		tr:hover td{background: #e9f6fc;}
 	}
