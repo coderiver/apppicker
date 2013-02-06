@@ -6,6 +6,8 @@
 	<title>Template</title>
 	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
+	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 
@@ -125,65 +127,74 @@
 						<fieldset>
 							<div class="form__col">
 								<div class="form__row">
-									<select name="" id="">
-										<option>Choose your app</option>
-										<option>Choose your app</option>
-										<option>Choose your app</option>
-									</select>
+									<div class="select">
+										<span>Choose your app</span>
+										<select>
+											<option>Choose your app 1</option>
+											<option>Choose your app 2</option>
+											<option>Choose your app 3</option>
+										</select>
+									</div>
 								</div>
 								<div class="form__row">
-									<textarea name="" id="" cols="30" rows="10">Please add 3 promo codes to ensure the app gets reviewed. </textarea>
+									<textarea class="textarea" name="" cols="30" rows="2">Please add 3 promo codes to ensure the app gets reviewed. </textarea>
 								</div>
 							</div>
 							<div class="form__col">
 								<div class="form__row">
-									<input type="text" placeholder="Promocode #1">
+									<input type="text" placeholder="Promocode #1" class="input">
 								</div>
 								<div class="form__row">
-									<input type="text" placeholder="Promocode #2">
+									<input type="text" placeholder="Promocode #2" class="input">
 								</div>
 								<div class="form__row">
-									<input type="text" placeholder="Promocode #3">
+									<input type="text" placeholder="Promocode #3" class="input">
 								</div>
 							</div>
 							<div class="form__col_sm">
 								<div class="form__row">
-									<select name="" id="">
-										<option>Expire at:  12.01.2013</option>
-										<option>Expire at:  12.01.2013</option>
-										<option>Expire at:  12.01.2013</option>
-									</select>
+									<div class="select">
+										<span>Expire at:  12.01.2013</span>
+										<select>
+											<option>Expire at:  12.01.2014</option>
+											<option>Expire at:  12.01.2015</option>
+											<option>Expire at:  12.01.2016</option>
+										</select>
+									</div>
 									<div class="hint_t">You shoud check, are you giving users enought time to pick and write a review. </div>
 								</div>
 								<div class="form__row">
-									<label for=""><input type="checkbox"> add additional time to review</label>
+									<label for="check-01" class="check"><input type="checkbox" id="check-01"> add additional time to review</label>
 									<div class="hint_b">You shoud check, are you giving users enought time to pick and write a review.</div>
 								</div>
 							</div>
-							<div class="form__del"></div>
+							<div class="form__col_del"><span class="form__del"></span></div>
 						</fieldset>
 
 						<fieldset>
 							<div class="form__col">
 								<div class="form__row">
-									<select name="" id="">
-										<option>Choose your app</option>
-										<option>Choose your app</option>
-										<option>Choose your app</option>
-									</select>
+									<div class="select">
+										<span>Choose your app</span>
+										<select>
+											<option>Choose your app 1</option>
+											<option>Choose your app 2</option>
+											<option>Choose your app 3</option>
+										</select>
+									</div>
 								</div>
 							</div>
 							<div class="form__col_sm">
 								<div class="form__row">
-									<label for=""><input type="checkbox"> add additional time to review</label>
+									<label for="check-02" class="check"><input type="checkbox" id="check-02"> add additional time to review</label>
 									<div class="hint_b">You shoud check, are you giving users enought time to pick and write a review.</div>
 								</div>
 							</div>
-							<div class="form__del"></div>
+							<div class="form__col_del"><span class="form__del"></span></div>
 						</fieldset>
 
-						<a href="#" class="add-app">add app to review</a>
-						<a href="#" class="paypal"><span>Buy this promo, 3 apps — <b>$12.99</b></span></a>
+						<a href="#" class="add-app"><span>+</span>add app to review</a>
+						<div href="#" class="paypal"><a href="#">Buy this promo, 3 apps — <b>$12.99</b></a></div>
 
 					</form>
 				</div>
@@ -194,6 +205,15 @@
 	<!-- END .profile -->
 </div>
 
+
+<div class="container">
+	<div class="sidebar">
+		<img src="img/sidebar.png" alt="">
+	</div>
+	<div class="content">
+		<img src="img/content.png" alt="">
+	</div>
+</div>
 
 
 <!-- BEGIN footer -->
