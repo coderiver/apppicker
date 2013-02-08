@@ -205,21 +205,17 @@ a{
 				height: 34px;
 				padding: 3px 19px 0;
 				text-decoration: none;
-				color: #f24800;
+				color:#357ea8;
 				line-height: 34px;
 			}
-			&.active a, a:hover{
+			a:hover{
 				border-bottom:3px solid #f24800;
+				color: #f24800;
 			}
-		}
-		.blue{
-			li{
-				a{color:#357ea8;}
-				&.active a{
-					border-bottom:3px solid #dd490b;
-					color:#fff;
-					background: #f46021;
-				}
+			&.active a{
+				border-bottom:3px solid #dd490b;
+				color:#fff;
+				background: #f46021;
 			}
 		}
 	}
@@ -542,3 +538,76 @@ a{
 	}
 }
 
+span.label_purple{
+	background: #c5278b;
+	margin-right: 3px;
+	a{
+		margin-right: 0;
+	}
+}
+
+.already-buy{
+	border-radius:5px;
+	background: #d4eafd;
+	font-family: Arial, sans-serif;
+	h1{
+		font-size: 14px;
+		color:#fff;
+		font-weight:normal;
+		font-family: Arial, sans-serif;
+		background: #4e4e4e;
+		border-radius:5px 5px 0 0;
+		padding: 8px 14px 11px;
+		margin-bottom: 10px;
+	}
+	.already-buy__item{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 8px;
+	}
+	.already-buy__media{
+		float: left;
+		padding: 1px 9px 11px 13px;
+		width: 56px;
+		line-height: 56px;
+		text-align:center;
+		img{
+			vertical-align: middle;
+			max-width: 56px;
+			border-radius:10px;
+			box-shadow:0 1px 3px rgba(0,0,0,.5);
+		}
+	}
+	.already-buy__info{
+		float: left;
+		width: 172px;
+		h2{
+			font-size: 14px;
+			color:#357ea8;
+			font-family: Arial, sans-serif;
+			line-height: 1.5;
+			margin:0 0 2px 2px;
+			a{
+				color:#357ea8;
+				&:hover{text-decoration: none;}
+			}
+		}
+	}
+	.already-buy__status{
+		color: #555555;
+		font-size: 12px;
+		font-family: Arial, sans-serif;
+		span{
+			font-size: 11px;
+			color:#fff;
+			background: #4e4e4e;
+			display: inline-block;
+			height: 13px;
+			line-height: 13px;
+			border-radius:7px;
+			padding:0 7px;
+			margin-right: 6px;
+			vertical-align: middle;
+		}
+	}
+}
